@@ -140,6 +140,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 button::-moz-focus-inner,
@@ -232,8 +233,7 @@ template {
 [hidden] {
   display: none;
 }
-</style>
-<style data-emotion="css-global" data-s="">
+
 *,
 *::before,
 *::after {
