@@ -3,35 +3,21 @@
 
 <head>
   <link rel="icon" href="./favicon.ico">
-  <link rel="stylesheet" href="style1.css"
-    data-emotion="mantine xlwgkm 1n75040 1s9403e g6sd27 lqlndj c6kn0q jw7ddh 69th62 ckyupt uwrrpw 15k4v94 1v03c60 1rj1q7n c0cjjf 5kj8sj lyw4g7 7ri6wd 19y4s75 h9iq4m 6g15dx 1zico8 1jvm5dz fggarg 1euoqo5 1aa9h1m bizhyd fj932o 3xbgk5 qo1k2 1g4orza 386jen 1e3sr6j fui8ih 1jscv72 1h2lkfs uc7v8l lun5bd 1z0amsu qqmv3w 11nhzn5 t73dlk 1jma4sw bkhyfb qdimgd 1o491bn tlgh74 gyykdh 1hs5hd3 56nedm 5nwdgi 1gqvu0 s9gv3x 2r24v4 nta89z 1h6pkea pildck 1xk763i ukbbnm 2qned 15ko15j zw0bzy 2xxlzf p8awv6 1g4q40w 1n0ahul 1ysgub6 9n0gcv 2m2krs jmn239"
-    data-s="">
-  <link rel="stylesheet" href="style2.css" data-emotion="mantine" data-s="" data-savepage-sheetrules="">
+  <link rel="stylesheet" href="./style1.css">
+  <link rel="stylesheet" href="./style2.css">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>GaragePalz</title>
 
-  <link rel="stylesheet" href="font.css">
-
-  </script><noscript data-n-css=""></noscript>
-  <script src="https://hydrogen.sh/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" type="text/javascript"></script>
-  <script src="https://hydrogen.sh/_next/static/chunks/webpack-fd1bc4a65a80e5c8.js" type="text/javascript"></script>
-  <script src="https://hydrogen.sh/_next/static/chunks/framework-6fb0c9e4013d3d0e.js" type="text/javascript"></script>
-  <script src="https://hydrogen.sh/_next/static/chunks/main-46f099ed75e699f9.js" type="text/javascript"></script>
-  <script src="https://hydrogen.sh/_next/static/chunks/pages/_app-beead8454cbc24aa.js" type="text/javascript"></script>
-  <script src="https://hydrogen.sh/_next/static/chunks/131-46ecc57ac5c08dc8.js" type="text/javascript"></script>
-  <script src="https://hydrogen.sh/_next/static/chunks/pages/index-12ec166beb547e48.js" type="text/javascript"></script>
-  <script src="https://hydrogen.sh/_next/static/2fvviEVDRq_FD5psE7WOM/_buildManifest.js" type="text/javascript"></script>
-  <script src="https://hydrogen.sh/_next/static/2fvviEVDRq_FD5psE7WOM/_ssgManifest.js" type="text/javascript"></script>
-
-  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="./font.css">
+  <link rel="stylesheet" href="./site.css">
 
 </head>
 
 <body>
   <div id="__next">
-    <div class="mantine-ScrollArea-root mantine-1n75040" style="position:relative;--radix-scroll-area-corner-width:0px;--radix-scroll-area-corner-height:0px" dir="ltr">
+    <div style="position:relative;--radix-scroll-area-corner-width:0px;--radix-scroll-area-corner-height:0px" dir="ltr">
       <style>
         [data-radix-scroll-area-viewport] {
           scrollbar-width: none;
@@ -43,12 +29,12 @@
           display: none
         }
       </style>
-      <div data-radix-scroll-area-viewport="" class="mantine-xlwgkm mantine-ScrollArea-viewport" style="overflow: scroll;">
+      <div>
         <div style="min-width:100%;display:table">
-          <div class="mantine-Stack-root mantine-1s9403e">
-            <div class="mantine-Group-root mantine-g6sd27">
-              <div class="mantine-Group-root mantine-lqlndj">
-                <div class="mantine-Group-root mantine-c6kn0q">
+          <div class="theme-background">
+            <div class="account-button-size">
+              <div class="mantine-lqlndj">
+                <div class="svg-align">
                   <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="25.000000pt" height="25.000000pt" viewBox="0 0 256.000000 256.000000" preserveAspectRatio="xMidYMid meet">
 
                     <g transform="translate(0.000000,256.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none">
@@ -63,42 +49,53 @@
                     </g>
                   </svg>
 
-                  <h1 class="mantine-jw7ddh">GaragePalz</h1>
+                  <h1>GaragePalz</h1>
                 </div>
               </div>
-              <div class="mantine-Group-root mantine-69th62">
-                <a class="mantine-ckyupt" href="https://garagepalz.com/aboutus">About Us</a>
-                <a class="mantine-ckyupt" href="https://garagepalz.com/aboutus">Community</a>
-                <a class="mantine-ckyupt" href="https://garagepalz.com/tos">Terms of Service</a>
+              <div class="top-link-decoration">
+                <a class="top-link" href="https://garagepalz.com/aboutus">About Us</a>
+                <a class="top-link" href="https://garagepalz.com/aboutus">Community</a>
+                <a class="top-link" href="https://garagepalz.com/tos">Terms of Service</a>
               </div>
-              <div class="mantine-Group-root mantine-uwrrpw">
-                <div class="mantine-Group-root mantine-1ytrjx6">
-                  <button class="mantine-hczsen" type="button" data-button="true">
-                    <div class="mantine-3xbgk5">
-                      <span class="mantine-qo1k2 ">Login</span>
+              <div>
+                <div class="account-align">
+                  <button class="account-buttons" id="LoginForm" type="button" data-button="true">
+                    <script>
+                    document.getElementById("LoginForm").onclick = function () {
+                        location.href = "http://localhost/website/login.php";
+                    };
+                    </script>
+                    <div class="coming-soon-text">
+                      <span class="coming-soon-align">Login</span>
                     </div>
                   </button>
-                  <button class="mantine-mnrs6j" type="button" data-button="true">
-                    <div class="mantine-3xbgk5">
-                      <span class="mantine-qo1k2 ">Sign Up</span>
+
+                  <button class="account-buttons" id="SignupForm" type="button" data-button="true">
+                    <script>
+                    document.getElementById("SignupForm").onclick = function () {
+                        location.href = "http://localhost/website/registration.php";
+                    };
+                    </script>
+                    <div class="coming-soon-text">
+                      <span class="coming-soon-align">Sign up</span>
                     </div>
                   </button>
+
                 </div>
               </div>
             </div>
-            <div class="mantine-15k4v94">
-              <div class="mantine-Stack-root mantine-5kj8sj">
-                <div class="mantine-Stack-root mantine-lyw4g7">
-                  <div class="mantine-Stack-root mantine-7ri6wd">
-                    <h1 class="mantine-1jvm5dz">GaregePalz</h1>
-                    <div class="mantine-fggarg">Coming soon to <span class="mantine-1euoqo5">Android &amp; IOS</span>.</div>
-                    <div class="mantine-1aa9h1m">
-                      <div class="mantine-Group-root mantine-bizhyd">
-                        <div class="mantine-Stack-root mantine-fj932o">
+              <div class="title-padding">
+                <div class="img-align">
+                  <div class="subtext-align">
+                    <h1 class="title">GaregePalz</h1>
+                    <div class="subtext">Coming soon to <span class="mantine-1euoqo5">Android &amp; IOS</span>.</div>
+                    <div>
+                      <div>
+                        <div class="coming-soon-padding">
                           <a class="coming-soon">
-                            <div class="mantine-3xbgk5">
-                              <span class="mantine-qo1k2">Coming soon</span>
-                              <span class="mantine-Button-icon mantine-Button-rightIcon mantine-386jen">
+                            <div class="coming-soon-text">
+                              <span class="coming-soon-align">Coming soon</span>
+                              <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
                                   stroke-linejoin="round">
                                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -109,9 +106,9 @@
                               </span>
                             </div>
                           </a>
-                          <div class="mantine-Stack-root mantine-fui8ih">
-                            <div class="mantine-Group-root mantine-uc7v8l">
-                              <div class="mantine-Group-root mantine-lun5bd">
+                          <div>
+                            <div class="icon-text-align icon-fix">
+                              <div class="icon-text">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-apple" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
                                   stroke-linejoin="round">
                                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -122,7 +119,7 @@
                                 </svg>
                                 <div class="mantine-1z0amsu">iOS</div>
                               </div>
-                              <div class="mantine-Group-root mantine-lun5bd">
+                              <div class="icon-text">
                                 <span class="mantine-Button-icon mantine-Button-leftIcon mantine-1g4orza">
                                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -136,7 +133,7 @@
                                     <line x1="15" y1="18" x2="15" y2="21"></line>
                                   </svg>
                                 </span>
-                                <div class="mantine-1z0amsu">Android</div>
+                                <div>Android</div>
                               </div>
                             </div>
                           </div>
@@ -145,16 +142,14 @@
                     </div>
                   </div>
                   <div style="width:33%">
-                    <img class="mantine-t73dlk" src="https://media.discordapp.net/attachments/1098142711757930548/1099745483615916132/360_F_487807357_OVUBdnn0CHbhxtq4DUzxIvSirrkFyWxj.png?width=750&height=450">
+                    <img class="igm-border" src="https://media.discordapp.net/attachments/1098142711757930548/1099745483615916132/360_F_487807357_OVUBdnn0CHbhxtq4DUzxIvSirrkFyWxj.png?width=750&height=450">
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
   </div>
 </body>
-
 </html>
