@@ -1,0 +1,81 @@
+.account-align {
+  box-sizing: border-box;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  gap: 10px;
+  display: none;
+}
+
+.account-align>* {
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+}
+
+@media (min-width: 576px) {
+  .account-align {
+    display: flex;
+  }
+}
+
+
+/* Login / Sign up */
+.account-buttons {
+  padding: 0px 14px;
+  appearance: none;
+  text-align: left;
+  text-decoration: none;
+  box-sizing: border-box;
+  height: 30px;
+  font-family: Inter;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  width: 100%;
+  border-radius: 32px;
+  font-weight: 600;
+  position: relative;
+  line-height: 1;
+  font-size: 12px;
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid rgb(165, 216, 255);
+  background-color: transparent;
+  color: rgb(165, 216, 255);
+}
+
+.account-buttons:focus {
+  outline-offset: 2px;
+  outline: rgb(28, 126, 214) solid 2px;
+}
+
+.account-buttons:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.account-buttons:focus {
+  outline-offset: 2px;
+  outline: rgb(28, 126, 214) solid 2px;
+}
+
+.account-buttons:focus:not(:focus-visible) {
+  outline: none;
+}
+
+@media (hover: hover) {
+  .account-buttons:hover {
+    background-color: rgba(51, 154, 240, 0.05);
+  }
+}
+
+@media (hover: none) {
+  .account-buttons:active {
+    background-color: rgba(51, 154, 240, 0.05);
+  }
+}
+
+.account-buttons:active {
+  transform: translateY(3px);
+}
